@@ -1,4 +1,4 @@
- # Neuseelandreise HOWTO - Übersichtskarte
+# Neuseelandreise HOWTO - Übersichtskarte
 
 ## 1. Kartenbereich vorbereiten
 
