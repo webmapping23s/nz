@@ -100,7 +100,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 for (let stop of STOPS) {
     // Marker für den Stop
-    let marker = L.marker([stop.lat, stop.lng])
+    let marker = L.marker([stop.lat, stop.lng], {
+        opacity: 0.5,
+    })
     .addTo(map)
     .bindPopup(`<h3>${stop.title}</h3>
     <a href="${stop.wikipedia}">Wikipedia</a>
