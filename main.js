@@ -99,13 +99,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 for (let stop of STOPS) {
-    //console.log(stop);
-    console.log(stop.title);
-    console.log(stop.user);
-    console.log(stop.lat);
-    console.log(stop.lng);
-    console.log(stop.wikipedia);
-
+    // Marker für den Stop
     L.marker([stop.lat, stop.lng]).addTo(map)
     .bindPopup(stop.title)
     .openPopup();
