@@ -98,10 +98,15 @@ L.control.scale({
     position: "bottomright"
 }).addTo(map);
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+
+let watercolor = L.tileLayer.provider('Stamen.Watercolor');
+let osm = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
+
+
+L.control.layers({
+    "Openstreetmap": osm,
+    "Watercolor": watercolor
 }).addTo(map);
-L.tileLayer.provider('Stamen.Watercolor').addTo(map);
 
 for (let stop of STOPS) {
     // Marker für den Stop
