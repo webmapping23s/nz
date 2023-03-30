@@ -3,12 +3,14 @@ let stop_lng = 175.583333;
 let zoom = 13;
 let title = 'Tongariro-Nationalpark';
 
-const STOPS = ["Wellington", "Tongariro-Nationalpark", "Rotorua"];
+const STOPS = ["Wellington", {
+    title: "Tongariro-Nationalpark",
+    user: "webmapping",
+    lat: -39.2,
+    lng: 175.583333,
+    wikipedia: "https://de.wikipedia.org/wiki/Tongariro-Nationalpark"
+}, "Rotorua"];
 console.log(STOPS);
-console.log(STOPS[0]);
-console.log(STOPS[1]);
-console.log(STOPS[2]);
-console.log(STOPS.length);
 
 let map = L.map('map').setView([stop_lat, stop_lng], zoom);
 
