@@ -93,13 +93,19 @@ const STOPS = [
 ];
 
 let map = L.map('map').setView([stop_lat, stop_lng], zoom);
+L.control.scale({
+    imperial: false,
+    position: "bottomright"
+}).addTo(map);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+L.tileLayer.provider('Stamen.Watercolor').addTo(map);
 
 for (let stop of STOPS) {
     // Marker für den Stop
+    
     let marker = L.marker([stop.lat, stop.lng], {
         opacity: 0.5,
     })
