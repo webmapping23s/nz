@@ -92,7 +92,9 @@ const STOPS = [
     }
 ];
 
-let map = L.map('map').setView([stop_lat, stop_lng], zoom);
+let map = L.map('map', {
+    fullscreenControl: true
+}).setView([stop_lat, stop_lng], zoom);
 L.control.scale({
     imperial: false
 }).addTo(map);
