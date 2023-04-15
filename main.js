@@ -104,6 +104,8 @@ let osm = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
 
 L.control.layers({
     "Openstreetmap": osm,
+    "Esri WorldTopoMap": L.tileLayer.provider("Esri.WorldTopoMap"),
+    "Esri WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
     "Watercolor": watercolor
 }).addTo(map);
 
