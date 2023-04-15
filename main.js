@@ -94,8 +94,7 @@ const STOPS = [
 
 let map = L.map('map').setView([stop_lat, stop_lng], zoom);
 L.control.scale({
-    imperial: false,
-    position: "bottomright"
+    imperial: false
 }).addTo(map);
 
 
