@@ -4,7 +4,7 @@
 
 * `index.html` Datei erstellen und den `html 5` Baustein von VSCode einfügen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/f4bd43d9dfdadd6ae15e141bc49452d1832d2d91)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/f4bd43d9dfdadd6ae15e141bc49452d1832d2d91)
 
 * **Sidestep VSCode Hilfestellungen**
 	* Bausteine wie z.B. oben, autocomplete bei allen Elementen, Attributen
@@ -16,7 +16,7 @@
 
 * Seitentitel als &lt;title> Element ergänzen und Seitensprache über das `lang`-Attribut auf Deutsch (`de`) ändern
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/5e35f9bd9894905bbe361ca28d53aade2f0357c3)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/5e35f9bd9894905bbe361ca28d53aade2f0357c3)
 
     ```html
     <html lang="de">
@@ -26,7 +26,7 @@
 
 * Titel als &lt;h1> Element (für *header 1*) setzen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/484e2f5cf345e468cde1fcf050363f9f96c103aa)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/484e2f5cf345e468cde1fcf050363f9f96c103aa)
 
     ```html
     <h1>Neuseelandreise</h1>
@@ -34,7 +34,7 @@
 
 * Untertitel als &lt;h2> Element (für *header 2*) setzen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/2870ff7def2854f0c905d611848e8a3d40ebf0b4)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/2870ff7def2854f0c905d611848e8a3d40ebf0b4)
 
     ```html
     <h2>Tongariro-Nationalpark</h2>
@@ -42,7 +42,7 @@
 
 * Introtext als &lt;p> Element (für *paragraph*) mit weichen Zeilenumbrüchen als &lt;br> Element (für *break*) hinzufügen.  Wikipedia-Suche "*Tongariro-Nationalpark*", dann die ersten drei Absätze kopieren
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/0d5ca5017dce46df5f7dd9b540e897630dad47bd)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/0d5ca5017dce46df5f7dd9b540e897630dad47bd)
 
     ```html
     <p>Der Tongariro-Nationalpark  ... Weltnaturerbe der UNESCO. <br> ... heilig verehren</p>
@@ -50,7 +50,7 @@
 
 * Link zur Quelle als &lt;a> Element (wie *anchor*) ergänzen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/dbd2c740d7ec45ca965f2381995ae96ebba3d9c4)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/dbd2c740d7ec45ca965f2381995ae96ebba3d9c4)
 
     ```html
     (Quelle: <a href="https://de.wikipedia.org/wiki/Tongariro-Nationalpark">Wikipedia</a> )
@@ -61,7 +61,7 @@
 
 * Quelltext mit dem VS Code Befehl `F1 / Format Document` formatieren - das bringt etwas Struktur in den Code und hilft später bei Skripts und Stylesheets noch viel mehr
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/acd9659b4353e532c3bbefddc8692d261e7c8a8f)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/acd9659b4353e532c3bbefddc8692d261e7c8a8f)
 
 * Bild einer Attraktion im Netz suchen und speichern
 
@@ -70,13 +70,13 @@
     * Speicherort ist ein neues Unterverzeichnis `images/`
     * Dateiname ist `attraction.jpg`
   
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/4f303d1c976b33257fa77c0b1e8966f20153a92f)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/4f303d1c976b33257fa77c0b1e8966f20153a92f)
 
 * Bild der Attraktion als Abbildung mit Bildunterschrift einbauen
 
     * die Abbildung als &lt;figure> Element mit einem Bild als &lt;img> Element  definieren
     
-        [🔗 COMMIT](https://github.com/webmapping/nz/commit/fb5f32dfd8a72f75fc7e7c041c0446bbf2a31055)
+        [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/fb5f32dfd8a72f75fc7e7c041c0446bbf2a31055)
 
         ```html
         <figure>
@@ -90,7 +90,7 @@
 
     * die Bildunterschrift folgt unterhalb des &lt;img> Elements als &lt;figcaption> Element mit einem &lt;a> Element für den Link zur Bildquelle
     
-        [🔗 COMMIT](https://github.com/webmapping/nz/commit/e14bfae39f4c9dde513ef392df31f3d151d6bfd8)
+        [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/e14bfae39f4c9dde513ef392df31f3d151d6bfd8)
 
         ```html
         <figure>
@@ -112,7 +112,7 @@
 
 * die Überschrift beim &lt;h2> Element mit einem &lt;em> Element kursiv formatieren
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/df0c10b79fcd9565ec78a4d847cfdeb42f02aa30)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/df0c10b79fcd9565ec78a4d847cfdeb42f02aa30)
 
     ```html
     <h2><em>Tongariro-Nationalpark</em></h2>
@@ -120,7 +120,7 @@
 
 * einen beliebigen Begriff im Beschreibungsabsatz mit einem &lt;strong> Element fett formatieren
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/aad85193618e0a85e464d8eb502ff8e7057cb149)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/aad85193618e0a85e464d8eb502ff8e7057cb149)
 
     ```html
     <strong>Kultstätten der Māori</strong>
@@ -128,7 +128,7 @@
 
 * eine Linkliste als &lt;ul> Element (wie *unordered list*) mit drei weiterführenden Links als &lt;a> Elemente verpackt in &lt;li> Elements (wie *list item*) hinzufügen. Vor der Linkliste die Überschrift *Links* als &lt;h3> Element ergänzen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/dc6cf6934e335922d2561327c01b6d22d036d55a)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/dc6cf6934e335922d2561327c01b6d22d036d55a)
 
     ```html
     <h3>Links</h3>
@@ -147,7 +147,7 @@
 
         * Suche: Schwerer Barb-Pfeil nach links, auf der Ergebnisseite bei "ähnliche Zeichen" finden wir auch den Pfeil nach rechts / jeweils Kopieren
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/fe809e237134c1d8957033e42b9e75da738705a5)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/fe809e237134c1d8957033e42b9e75da738705a5)
 
     ```html
     <nav>
@@ -162,7 +162,7 @@
 
 * mit den *sprechenden* Strukturelementen &lt;header>, &lt;main>, &lt;article>, &lt;footer> gleich unter dem &lt;body> Element die Seitenstruktur definieren
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/85efd281330e50181c945b89b4c5d7ed5c84bf0d)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/85efd281330e50181c945b89b4c5d7ed5c84bf0d)
 
     ```html
     <body>
@@ -176,12 +176,12 @@
 
 * den ganzen bisher geschriebenen Content in das &lt;article> Element verschieben. Die Etappennavigation kommt in den &lt;footer>
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/a8340581ffc4e391aba52dbb14b9cc85262ab942)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/a8340581ffc4e391aba52dbb14b9cc85262ab942)
 
 
 * mit `F1 / Format Document` den Quelltext säubern
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/b05aeec12af2a3078bc234e1805063fd217d9017)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/b05aeec12af2a3078bc234e1805063fd217d9017)
 
 ## 4. Headerbereich mit Banner und Usericon erstellen
 
@@ -191,11 +191,11 @@
         * Speicherort im Unterverzeichnis `images/`
         * Bildname `header.jpg`
 
-        [🔗 COMMIT](https://github.com/webmapping/nz/commit/ec027c507347c7a561a758feed1a6d42add2f64b)
+        [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/ec027c507347c7a561a758feed1a6d42add2f64b)
 
     * Bannerbild im &lt;header> als &lt;img> Element einbauen
     
-        [🔗 COMMIT](https://github.com/webmapping/nz/commit/f98d0093b93fe943afd087587d363b7c75c64451)
+        [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/f98d0093b93fe943afd087587d363b7c75c64451)
 
         ```html
         <header>
@@ -212,7 +212,7 @@
             * Vorschau speichern weg
             * EXIF, XMP, IPTC weg
 
-        * [🔗 COMMIT](https://github.com/webmapping/nz/commit/4cdfd8434c2023c6845dffdab1ca1f1c1c2aef4f)
+        * [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/4cdfd8434c2023c6845dffdab1ca1f1c1c2aef4f)
 
 
 * analog zum Bannerbild ein Userbild bei [https://pixabay.com](https://pixabay.com) suchen
@@ -242,21 +242,21 @@
                 * Vorschau speichern weg
                 * EXIF, XMP, IPTC weg
 
-        [🔗 COMMIT](https://github.com/webmapping/nz/commit/1a818f992edf6d9c33db450aaa967ee1db517ea5)
+        [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/1a818f992edf6d9c33db450aaa967ee1db517ea5)
 
 * Userbild mit Bildquelle und Bild als Link direkt unter dem Bannerbild einbauen. Der Link geht zum eigenen github Account
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/73086511741229e8a876026da8fdd7c882baa443)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/73086511741229e8a876026da8fdd7c882baa443)
 
     ```html
-    <a href="https://github.com/webmapping">
+    <a href="https://github.com/webmapping23s">
         <img src="images/user.jpg" alt="Another one rides the Bus">
     </a>
     ```
 
 * die Bildquellen als Kommentare (für jetzt) hinzufügen
 
-    [🔗 COMMIT](https://github.com/webmapping/nz/commit/e61befc2209ee33c1dd9605142c9ff6b4d294a5f)
+    [🔗 COMMIT](https://github.com/webmapping23s/nz/commit/e61befc2209ee33c1dd9605142c9ff6b4d294a5f)
 
     ```html
     <!-- Bildquelle: https://pixabay.com/photos/tongariro-volcano-lord-who-rings-583179/ -->
