@@ -265,4 +265,4 @@
 
 ## Das Grundgerüst für die Etappenseite ist damit fertig
 
-Online unter: [https://webmapping.github.io/nz](https://webmapping.github.io/nz)
+Online unter: [https://webmapping23s.github.io/nz](https://webmapping23s.github.io/nz)
